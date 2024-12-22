@@ -1,20 +1,63 @@
-.container2 {
+.responsive-container {
     background: rgb(235, 232, 232);
-    padding: 20px;
+    border: 2px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 320px;
-}
-
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    /* Default size for larger screens */
+    width: 50%;
+    max-width: 800px;
+    min-width: 300px;
+  }
+  
+  /* Adjust width for smaller screens */
+  @media (max-width: 768px) {
+    .responsive-container {
+      width: 80%;
+    }
+  }
+  
+  /* Further adjustments for very small screens */
+  @media (max-width: 480px) {
+    .responsive-container {
+      width: 95%;
+    }
+  }
 
 .recom{
-     background: rgb(235, 232, 232);
-    padding: 20px;
+    background: rgb(235, 232, 232);
+    border: 2px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 320px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    /* Default size for larger screens */
+    width: 50%;
+    max-width: 800px;
+    min-width: 300px;
 
 }
+  
+  /* Adjust width for smaller screens */
+  @media (max-width: 768px) {
+    .recom {
+      width: 80%;
+    }
+  }
+  
+  /* Further adjustments for very small screens */
+  @media (max-width: 480px) {
+    .recom {
+      width: 95%;
+    }
+  }
+
+
 h1 {
     font-size: 24px;
     margin-bottom: 20px;
