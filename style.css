@@ -1,0 +1,43 @@
+.container2 {
+    background: rgb(235, 232, 232);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+label {
+    font-size: 14px;
+    display: block;
+    margin: 10px 0 5px;
+}
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgb(209, 205, 205);
+}
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: transparent;
+    color: #007BFF;
+}
+
+.form-section{
+    background-color:  transparent;
+}
+
+.recommendations{
+    background-color: transparent;
+}
